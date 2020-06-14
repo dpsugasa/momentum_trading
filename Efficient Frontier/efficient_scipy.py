@@ -155,8 +155,8 @@ stocks = availStocks
 #stocks = [availStocks[i] for i in np.random.random_integers(0,len(availStocks)-1, 3)]
 numAssets = len(stocks)
 source = 'yahoo'
-start = '2010-01-01'
-end = '2015-10-31'
+start = '2015-01-01'
+end = '2020-10-31'
 
 #Retrieve data from online
 data = getStockQuotes(stocks, source, start, end)
@@ -205,6 +205,7 @@ trace1 = go.Scatter(
                     mode='markers',
                     marker=dict(
                     #size=16,
+                    line_width = 1,
                     color=results[2,:], #set color equal to a variable
                     colorscale='Viridis', # one of plotly colorscales
                     showscale=True
