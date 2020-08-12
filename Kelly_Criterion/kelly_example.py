@@ -83,6 +83,8 @@ f
 
 equs = []  # preallocating space for our simulations
 
+wtf = "is this"
+
 
 def kelly_strategy(f):
     global equs
