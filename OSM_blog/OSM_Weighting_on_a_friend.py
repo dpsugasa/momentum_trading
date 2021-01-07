@@ -1,6 +1,6 @@
 # Built using Python 3.7.4
-#%%
 
+#%%
 # Load libraries
 import pandas as pd
 import pandas_datareader.data as web
