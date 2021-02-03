@@ -179,7 +179,7 @@ covariance = rets.cov()
 plt.figure(figsize=(8,6))
 
 #Run MC simulation of numPortfolios portfolios
-numPortfolios = 100000
+numPortfolios = 10000
 results = np.zeros((3,numPortfolios))
 
 #Calculate portfolios

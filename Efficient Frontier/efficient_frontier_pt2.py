@@ -45,7 +45,7 @@ plt.legend(loc='upper left', fontsize=12)
 plt.ylabel('price in $')
 
 returns = table.pct_change()
-(1 + NL_ret).cumprod() - 1
+#(1 + NL_ret).cumprod() - 1
 
 plt.figure(figsize=(14, 7))
 for c in returns.columns.values:
